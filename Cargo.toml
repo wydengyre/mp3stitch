@@ -1,0 +1,13 @@
+[package]
+name = "mp3stitch"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+embedded-io = "0.6.1"
+
+[dev-dependencies]
+embedded-io = { version = "0.6.1", features = ["alloc"] }
+
